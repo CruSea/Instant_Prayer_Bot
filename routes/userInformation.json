@@ -1,0 +1,18 @@
+[
+    {
+        "Chat_Id": "1122",
+        "first_name": "Abera",
+        "last_name": "Mekonen",
+        "user_name": "Ab123",
+        "phone_number": 555,
+        "location": [{"longtude": 15, "latitude": 17 }]
+    },
+    {
+        "Chat_Id": "1122",
+        "first_name": "Abera",
+        "last_name": "Mekonen",
+        "user_name": "Ab123",
+        "phone_number": 555,
+        "location": [{"longtude": 11, "latitude": 10 }]
+    }
+]
