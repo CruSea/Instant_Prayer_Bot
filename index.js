@@ -9,6 +9,6 @@ app.use('/api', require('./routes/api'))
 mongoose.connect('mongodb://instant:root123@ds151247.mlab.com:51247/instant_prayer_db');
 mongoose.Promise = global.Promise;
 
-app.listen(process.env.port || 3000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log('listening to port 3000')
 });
