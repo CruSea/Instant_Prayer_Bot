@@ -31,8 +31,8 @@ exports.getOne = async function(query) {
 };
 
 // exports.delete = async function(data){
-    let user = await User.delete(data)
-    return user;
+    // let user = await User.delete(data)
+    // return user;
 // }
 // router.delete('/ninjas/:id', function(req, res, next){
 //     Ninja.findByIdAndRemove({_id: req.params.id}).then(function(ninja){
