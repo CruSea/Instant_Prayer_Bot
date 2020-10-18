@@ -2,14 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const geoSchema = new Schema({
-    type:{
-        type: String,
-        default: "Point"
-    },
-    coordinates: {
-        type: [Number],
-        index: "2dsphere"
-    }
+    
 })
 const userSchema = new Schema({
     Chat_Id:{
@@ -29,7 +22,19 @@ const userSchema = new Schema({
     phone_number: {
         type: Number
         },
-    location:geoSchema
+    coordinates: {
+        type:{
+                type: String,
+                default: "Point"
+            },
+        
+            longtiude:{
+                type: Number
+            },
+            latitude:{
+                type: Number
+            }
+    }
 
 });
 
