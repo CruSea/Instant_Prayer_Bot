@@ -10,7 +10,7 @@ router.get('/users', UserCtrl.getUser);
 router.post("/users", UserCtrl.createUser);
 
 
-// router.get("/users", UserCtrl.getUser);
+router.get("/users/isregistered/:phone", UserCtrl.isRegistered);
 
 
 // router.put("/users/:id", UserCtrl.updateUser);
